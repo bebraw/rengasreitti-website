@@ -1,9 +1,9 @@
 [
   {
     "element": "Link",
-    "children": "TODO",
+    "children": "Kartta",
     "attributes": {
-      "href": "/todo/"
+      "href": "/"
     }
   }
 ]
