@@ -1,0 +1,15 @@
+{
+  "/": {
+    "meta": {
+      "title": "Rengasreitti",
+      "description": "Jos etsit helppoa reittiä, jatka etsimistä"
+    },
+    "layout": "map",
+    "scripts": [
+      {
+        "type": "text/javascript",
+        "src": "/map.js"
+      }
+    ]
+  }
+}
