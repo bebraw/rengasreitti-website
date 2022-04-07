@@ -7,7 +7,7 @@
     "layout": "map",
     "scripts": [
       {
-        "type": "text/javascript",
+        "type": "module",
         "src": "/map.js"
       }
     ]
