@@ -5,6 +5,20 @@
     "language": "en",
     "siteName": "Rengasreitti"
   },
+  "scripts": [
+    {
+      "type": "text/javascript",
+      "src": "https://unpkg.com/sidewind@7.2.1/dist/sidewind.umd.production.min.js",
+      "integrity": "sha384-ahby8Y7azUa5BB34OKQAlP+9dzfC9qG7yIolMRF0gjZ6SmwiVLvhaeisANAZBSrM",
+      "crossorigin": "anonymous"
+    },
+    {
+      "type": "text/javascript",
+      "src": "https://unpkg.com/leaflet@1.7.1/dist/leaflet.js",
+      "integrity": "sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==",
+      "crossorigin": "anonymous"
+    }
+  ],
   "paths": {
     "assets": "./assets",
     "components": "./site/components",

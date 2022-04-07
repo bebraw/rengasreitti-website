@@ -7,6 +7,30 @@
     }
   },
   {
+    "_reference": "https://web.dev/defer-non-critical-css/",
+    "element": "link",
+    "attributes": {
+      "rel": "preload",
+      "href": "https://unpkg.com/leaflet@1.7.1/dist/leaflet.css",
+      "integrity": "sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==",
+      "crossorigin": "anonymous",
+      "as": "style",
+      "onload": "this.onload=null;this.rel='stylesheet'"
+    }
+  },
+  {
+    "element": "noscript",
+    "children": [
+      {
+        "element": "link",
+        "attributes": {
+          "rel": "stylesheet",
+          "href": "https://cdn.jsdelivr.net/gh/highlightjs/highlight.js@11.3.1/src/styles/github-dark.min.css"
+        }
+      }
+    ]
+  },
+  {
     "element": "meta",
     "attributes": {
       "name": "pagepath",

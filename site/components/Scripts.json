@@ -5,7 +5,9 @@
       "attributes": {
         "async": "",
         "__type": "type",
-        "__src": "src"
+        "__src": "src",
+        "__integrity": "integrity",
+        "__crossorigin": "crossorigin"
       }
     }
   ]
