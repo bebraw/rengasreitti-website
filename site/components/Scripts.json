@@ -3,7 +3,7 @@
     {
       "element": "script",
       "attributes": {
-        "async": "",
+        "__async": "async",
         "__type": "type",
         "__src": "src",
         "__integrity": "integrity",

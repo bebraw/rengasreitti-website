@@ -25,9 +25,9 @@
       "children": [
         {
           "element": "Link",
-          "children": "TODO",
+          "children": "Lataa GPX",
           "attributes": {
-            "href": "https://github.com/survivejs/sidewind"
+            "href": "/assets/rengasreitti.gpx"
           }
         }
       ]

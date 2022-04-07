@@ -10,12 +10,19 @@
       "type": "text/javascript",
       "src": "https://unpkg.com/sidewind@7.2.1/dist/sidewind.umd.production.min.js",
       "integrity": "sha384-ahby8Y7azUa5BB34OKQAlP+9dzfC9qG7yIolMRF0gjZ6SmwiVLvhaeisANAZBSrM",
-      "crossorigin": "anonymous"
+      "crossorigin": "anonymous",
+      "async": ""
     },
     {
       "type": "text/javascript",
       "src": "https://unpkg.com/leaflet@1.7.1/dist/leaflet.js",
       "integrity": "sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==",
+      "crossorigin": "anonymous"
+    },
+    {
+      "type": "text/javascript",
+      "src": "https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js",
+      "integrity": "sha512-BsUtn1Ar2O78Q8YkY1f2pkioHOs8H43KUlP3PHus8lyAMODNq1CmemnU435dFk/SU37OGG+ooxvmEhAcNTEBFQ==",
       "crossorigin": "anonymous"
     }
   ],
