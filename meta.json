@@ -24,6 +24,12 @@
       "src": "https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js",
       "integrity": "sha512-BsUtn1Ar2O78Q8YkY1f2pkioHOs8H43KUlP3PHus8lyAMODNq1CmemnU435dFk/SU37OGG+ooxvmEhAcNTEBFQ==",
       "crossorigin": "anonymous"
+    },
+    {
+      "type": "text/javascript",
+      "src": "https://unpkg.com/leaflet.browser.print@2.0.2/dist/leaflet.browser.print.js",
+      "integrity": "sha384-Ce1eyyd4O7TgOu6idWhzakQXngcfk6xIwjhECMDh8gHCKyHDxA7wnudXvubOnxYc",
+      "crossorigin": "anonymous"
     }
   ],
   "paths": {

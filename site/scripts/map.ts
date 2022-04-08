@@ -10,7 +10,7 @@ window.onload = () => {
       '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>',
   }).addTo(map);
 
-  // Add GPX
+  // add GPX
   const gpx = "/assets/rengasreitti.gpx";
   new L.GPX(gpx, {
     async: true,
@@ -33,6 +33,17 @@ window.onload = () => {
   // show a marker on the map
   L.marker({ lon: 0, lat: 0 }).bindPopup("The center of the world").addTo(map);
 
+  // allow printing
+  L.control.browserPrint({
+    position: "topright",
+    title: "Tulosta",
+    documentTitle: "Pohjois-savon rengasreitti",
+    printModes: [
+      L.BrowserPrint.Mode.Portrait(),
+    ],
+  }).addTo(map);
+
+  // figure out geolocation
   // @ts-expect-error TODO: Figure out how to type
   if (!navigator.geolocation) {
     console.log("Your browser doesn't support geolocation feature!");
