@@ -34,13 +34,10 @@ window.onload = () => {
   L.marker({ lon: 0, lat: 0 }).bindPopup("The center of the world").addTo(map);
 
   // allow printing
-  L.control.browserPrint({
-    position: "topright",
+  L.easyPrint({
     title: "Tulosta",
-    documentTitle: "Pohjois-savon rengasreitti",
-    printModes: [
-      L.BrowserPrint.Mode.Portrait(),
-    ],
+    position: "topright",
+    sizeModes: ["A4Portrait", "A4Landscape"],
   }).addTo(map);
 
   // figure out geolocation

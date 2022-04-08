@@ -27,8 +27,8 @@
     },
     {
       "type": "text/javascript",
-      "src": "https://unpkg.com/leaflet.browser.print@2.0.2/dist/leaflet.browser.print.js",
-      "integrity": "sha384-Ce1eyyd4O7TgOu6idWhzakQXngcfk6xIwjhECMDh8gHCKyHDxA7wnudXvubOnxYc",
+      "src": "https://unpkg.com/leaflet-easyprint@2.1.9/dist/bundle.js",
+      "integrity": "sha384-wf9ute6lQpx/ed7uU0TgJU56BOH/crnOVq13XbOxZKBpmB15XJMsdwfhZoommN+4",
       "crossorigin": "anonymous"
     }
   ],
